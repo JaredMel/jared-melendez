@@ -1,0 +1,28 @@
+* {
+    background-color:rgb(190, 255, 233);
+    color: rgb(83, 83, 83);
+    font-family: 'Courier New', Courier, monospace;
+}
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: black;
+}
+p {
+    text-align: center;
+}
+h1 {
+    font-style: italic;
+}
+li {
+    margin-bottom: 10px;
+    outline: 2px solid red
+}
+a {
+    font-style: italic;
+}
