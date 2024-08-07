@@ -1,10 +1,10 @@
-* {
+body {
     background-color:rgb(190, 255, 233);
     color: rgb(83, 83, 83);
     font-family: 'Courier New', Courier, monospace;
 }
 section {
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
 }
 h2 {
@@ -16,13 +16,54 @@ h2 {
 p {
     text-align: center;
 }
-h1 {
+#name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
     font-style: italic;
+    padding-top: 2ch;
 }
-li {
-    margin-bottom: 10px;
-    outline: 2px solid red
+#profile-picture {
+    border-radius: 50%;
+    margin: 1em;
+    width: 30vw;
+    border-style:outset;
+    border-width: 2dvi;
+    border-color: darkcyan;
 }
-a {
-    font-style: italic;
+#navigation {
+    position:fixed;
+    top:0;
+    opacity: 100%;
+    width: 100%;
+    background-color: cadetblue;
+}
+#navigation ul {
+    display: flex;
+    gap:  4em;
+    padding-bottom: 0;
+    list-style: none;
+}
+#Experience ul {
+    display: flex;
+    font-size: 0.9em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+#Experience ul li {
+    width: 10em;
+    height: 5em;
+    border-radius: 10%;
+    margin: 1em;
+    padding: 1em;
+    background-color: cornflowerblue;
+}
+img[src="img/github.jpg"] {
+    height: 50px;
+}
+img[src="img/gmail.webp"] {
+    height: 50px;
+}
+img[src="img/linkedin.webp"] {
+    height: 50px;
 }
