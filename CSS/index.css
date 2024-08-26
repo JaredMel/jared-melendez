@@ -23,6 +23,12 @@ p {
     padding-top: 2ch;
     text-align: center;
 }
+#name-container {
+    padding-top: 2ch;
+    display: flex;
+    justify-content:  center;
+    margin-top: 6em;
+}
 #profile-picture {
     border-radius: 50%;
     margin: 1em;
@@ -33,13 +39,15 @@ p {
 }
 #navigation {
     position:fixed;
+    text-align: center;
+    justify-content: center;
     top: 0;
     opacity: 100%;
     width: 100%;
     background-color: cadetblue;
 }
 #navigation ul {
-    display: flex;
+    display: inline-flex;
     gap:  3em;
     padding-bottom: 0;
     list-style: none;
@@ -111,7 +119,7 @@ img[src="img/linkedin.webp"] {
         text-align: center;
     }
     #navigation ul {
-        gap:  3em;
+        gap:  6em;
         font-family: Arial, Helvetica, sans-serif;
     }
     .date {
