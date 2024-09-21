@@ -10,11 +10,12 @@ footer.appendChild(copyright);
 
 const skillsList = ['c++', 'JavaScript', 'Java', 'c', 'Visual Studio', 'HTML']
 const skillsSection = document.getElementById('Skills')
-const skillsUL = skillsSection.querySelector('ul')
+const skillsUL = skillsSection.querySelector('div')
 
 for (let skill of skillsList)
 {
-    let skillItem = document.createElement('li');
+    let skillItem = document.createElement('div');
+    skillItem.className = 'Skill'
     skillItem.innerHTML = skill;
     skillsUL.appendChild(skillItem);
 }

@@ -88,6 +88,22 @@ img[src="img/linkedin.webp"] {
     flex-wrap: wrap;
     gap: 10px;
 }
+.skill-container {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+.Skill {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 10em;
+    border-radius: 0.8em;
+    padding: 0.5em;
+    font-size: large;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 30em));
